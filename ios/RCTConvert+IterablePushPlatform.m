@@ -11,8 +11,9 @@
 
 @implementation RCTConvert (IterablePushPlatform)
 RCT_ENUM_CONVERTER(PushServicePlatform, (@{
-                                           @"apns" : @(APNS),
-                                           @"apnsSandbox": @(APNS_SANDBOX)
+                                           @"APNS" : @(APNS),
+                                           @"APNS_SANDBOX": @(APNS_SANDBOX)
                                            }), APNS, integerValue)
 
 @end
+
